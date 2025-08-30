@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>City Life Story</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 20px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      border-radius: 10px;
+      background: #fff;
+    }
+    h1 {
+      text-align: center;
+      color: #2c3e50;
+    }
+    p {
+      background-color: #e0f2fe;
+      padding: 15px;
+      margin-bottom: 20px;
+      border-left: 5px solid #3b82f6;
+      border-radius: 6px;
+    }
+    span.clickable {
+      cursor: pointer;
+      color: #1d4ed8;
+      text-decoration: underline;
+      margin-right: 5px;
+    }
+    span.clickable:hover {
+      color: #2563eb;
+    }
+  </style>
+</head>
+<body>
+  <h1>Living in the City</h1>
+
+  <p>
+    <span class="clickable" onclick="playAudio(1)">1 Living in the city can be exciting,</span> 
+    <span class="clickable" onclick="playAudio(2)">2 Last week, something happened that really took me aback.</span>
+    <span class="clickable" onclick="playAudio(3)">3 I was walking in the park in the morning when a strange man came over and asked me for directions.</span>
+    <span class="clickable" onclick="playAudio(4)">4 He looked friendly, so I took him aside to explain the way.</span>
+  </p>
+
+  <p>
+    <span class="clickable" onclick="playAudio(17)">emocionante - exciting</span>
+    <span class="clickable" onclick="playAudio(18)">extraño - strange</span>
+  </p>
+
+  <p>
+    <span class="clickable" onclick="playAudio(5)">5 I often come by new people on my way to work, and sometimes it is interesting.</span>
+    <span class="clickable" onclick="playAudio(6)">6 For example, yesterday, I came by a small café near my apartment, and I decided to try their coffee.</span>
+    <span class="clickable" onclick="playAudio(7)">7 The taste took me back to my hometown, and I felt happy.</span>
+  </p>
+
+  <p>
+    <span class="clickable" onclick="playAudio(19)">probar - try</span>
+    <span class="clickable" onclick="playAudio(20)">sabor - taste</span>
+    <span class="clickable" onclick="playAudio(21)">ciudad natal - hometown</span>
+  </p>
+
+  <p>
+    <span class="clickable" onclick="playAudio(8)">8 My apartment is small, but it is comfortable.</span>
+    <span class="clickable" onclick="playAudio(9)">9 Sometimes, loud music comes from the apartments next door, and it takes away my peace.</span>
+    <span class="clickable" onclick="playAudio(10)">10 But I try to ignore it.</span>
+  </p>
+
+  <p>
+    <span class="clickable" onclick="playAudio(22)">ruidoso - loud</span>
+    <span class="clickable" onclick="playAudio(23)">al lado - next door</span>
+  </p>
+
+  <p>
+    <span class="clickable" onclick="playAudio(11)">11 In the evening, friends often come in to visit me.</span>
+    <span class="clickable" onclick="playAudio(12)">12 We talk about our day, and sometimes new problems come up at work.</span>
+    <span class="clickable" onclick="playAudio(13)">13 Last week, one friend came out of nowhere with a funny story, and it really took us all aback.</span>
+  </p>
+
+  <p>
+    <span class="clickable" onclick="playAudio(24)">de la nada - nowhere</span>
+  </p>
+
+  <p>
+    <span class="clickable" onclick="playAudio(14)">14 I like living in the city because things are close.</span>
+    <span class="clickable" onclick="playAudio(15)">15 Shops, cinemas, and buses are always near, and people always come through when you need help.</span>
+    <span class="clickable" onclick="playAudio(16)">16 Even if life is busy, you learn to enjoy every moment in the city center or at the park nearby.</span>
+  </p>
+
+  <p>
+    <span class="clickable" onclick="playAudio(25)">autobús - bus</span>
+    <span class="clickable" onclick="playAudio(26)">ocupado - busy</span>
+    <span class="clickable" onclick="playAudio(27)">cada - every</span>
+  </p>
+
+  <!-- Add audio clips -->
+  <audio id="audio1" src="audio/audio1.m4a"></audio>
+  <audio id="audio2" src="audio/audio2.m4a"></audio>
+  <audio id="audio3" src="audio/audio3.m4a"></audio>
+  <audio id="audio4" src="audio/audio4.m4a"></audio>
+  <audio id="audio5" src="audio/audio5.m4a"></audio>
+  <audio id="audio6" src="audio/audio6.m4a"></audio>
+  <audio id="audio7" src="audio/audio7.m4a"></audio>
+  <audio id="audio8" src="audio/audio8.m4a"></audio>
+  <audio id="audio9" src="audio/audio9.m4a"></audio>
+  <audio id="audio10" src="audio/audio10.m4a"></audio>
+  <audio id="audio11" src="audio/audio11.m4a"></audio>
+  <audio id="audio12" src="audio/audio12.m4a"></audio>
+  <audio id="audio13" src="audio/audio13.m4a"></audio>
+  <audio id="audio14" src="audio/audio14.m4a"></audio>
+  <audio id="audio15" src="audio/audio15.m4a"></audio>
+  <audio id="audio16" src="audio/audio16.m4a"></audio>
+  <audio id="audio17" src="audio/audio17.m4a"></audio>
+  <audio id="audio18" src="audio/audio18.m4a"></audio>
+  <audio id="audio19" src="audio/audio19.m4a"></audio>
+  <audio id="audio20" src="audio/audio20.m4a"></audio>
+  <audio id="audio21" src="audio/audio21.m4a"></audio>
+  <audio id="audio22" src="audio/audio22.m4a"></audio>
+  <audio id="audio23" src="audio/audio23.m4a"></audio>
+  <audio id="audio24" src="audio/audio24.m4a"></audio>
+  <audio id="audio25" src="audio/audio25.m4a"></audio>
+  <audio id="audio26" src="audio/audio26.m4a"></audio>
+  <audio id="audio27" src="audio/audio27.m4a"></audio>
+
+  <script>
+    function playAudio(number) {
+      const audio = document.getElementById("audio" + number);
+      if (audio) {
+        audio.currentTime = 0;
+        audio.play();
+      }
+    }
+  </script>
+</body>
+</html>
